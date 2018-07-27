@@ -1,0 +1,15 @@
+# Post message on topic test
+POST http://localhost:8080/dev/produce/test
+Content-Type: text/plain
+
+"Hello World!"
+
+###
+
+# Post message on topic twitter
+POST http://localhost:8080/dev/produce/twitter
+Content-Type: text/plain
+
+"Hello Twitter"
+
+###
